@@ -1,0 +1,72 @@
+h1 {
+    color: red;
+    font-size: 48px;
+    font-family: "Jacquard 24", system-ui;  
+}
+
+#h1-top{
+    font-style: italic;
+    text-align: left;
+    border: thin solid black;
+    /* margin: t r b l; */
+    margin: 50px 100px 150px 200px; 
+}
+
+.headings {
+    background-color: yellow;
+    border: thin solid black;
+}
+
+p {
+    /* background-image: url('./photo.webp'); */
+    column-count: 3;
+    column-gap: 50px;
+    font-size: larger;
+    text-align: justify;
+}
+
+body {
+    /* background-image: url("./v708-aum-24-b-diwali.jpg"); */
+    /* background-image: url("./photo.webp"); */
+    background-size: cover;
+    background-position: center bottom;
+    /* background-color: ; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+}
+
+#header-row {
+    border: thick solid red;
+    border-radius: 50px;
+}
+
+.thumbnail {
+    border-radius: 100%;
+    border: thin double white;
+
+    box-shadow: 0px 25px 50px rgba(0,0,0, 0.5);
+    /* box-shadow: x y size color; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /*start, center, end*/
+    justify-content: space-evenly; /* center, space-between, space-evenly, space-around */
+}
